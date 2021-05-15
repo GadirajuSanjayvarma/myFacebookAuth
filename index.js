@@ -18,5 +18,5 @@ app.use('/',express.static(path.join(__dirname,'template')))
   });*/
 
 app.listen(process.env.PORT || 8888, () => {
- // console.log(`Example app listening at http://localhost:${port}`)
+ console.log(`Example app listening at http://localhost:${port}`)
 })
